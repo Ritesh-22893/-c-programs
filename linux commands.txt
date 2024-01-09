@@ -1,0 +1,13 @@
+to see all chaches data (memeory)
+   ==> sudo du -sh /var/cache/apt
+
+to  clear above chaches data 
+   ==> sudo apt-get clean
+
+
+to see all chaches thumbnails
+   ==> du -sh ~/.cache/thumbnails/
+
+to clear above thumbnails
+   ==>  rm -rf ~/.cache/thumbnails/*
+
